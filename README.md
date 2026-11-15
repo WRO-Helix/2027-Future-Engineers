@@ -41,9 +41,41 @@ The [`src`](src) directory contains the source code for the robot. The main file
 
 The [`code`](src/code) directory contains the code files for sensor reading, motor control, and other functionalities.
 
+##### Files
+
+[`main.py`](src/code/main.py) - The main file that contains the code to control the robot.
+
 #### Testing directory
 
 The [`testing`](src/testing) directory contains the code files for testing the robot's functionalities.
+
+##### Files
+
+### Autostart directory
+
+The [`autostart`](autostart) directory contains the instructions for autostarting the robot. It includes a README file with detailed instructions on how to set up the robot for competition.
+
+#### Files
+
+[`start-robot.sh`](autostart/start-robot.sh) - A shell script to start the robot automatically.
+
+[`stop-robot.sh`](autostart/stop-robot.sh) - A shell script to disable autostart.
+
+### Images directory
+
+The [`images`](images) directory contains images for the project, such as team photos and robot design images.
+
+#### Robot directory
+
+The [`robot`](images/robot) directory contains images of the robot design and construction.
+
+#### Team directory
+
+The [`team`](images/team) directory contains images of the team members and their activities.
+
+#### Files
+
+[`youtube-urls.md`](images/youtube-urls.md) - A list of YouTube URLs related to the robot design.
 
 ## Installation
 
@@ -71,6 +103,6 @@ pip install -r requirements.txt
 
 To run the project, you have two options: for development and for production. The development option is recommended for testing and debugging, while the production option is recommended for running the robot in the competition.
 
-- Developement: Please refer to the [`Running`](src/README.md) section for detailed instructions.
+- Development: Please refer to the [`Running`](src/README.md) section for detailed instructions.
 
 - Production: Please refer to the [`Autostart`](autostart/README.md) section for detailed instructions.
