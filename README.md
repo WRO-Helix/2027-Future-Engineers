@@ -96,7 +96,7 @@ cd 2027-Future-Engineers
 - install the required dependencies:
 
 ```bash
-pip install -r requirements.txt
+. /install.sh
 ```
 
 ## Running
