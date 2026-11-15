@@ -33,6 +33,18 @@ There are the files required for our project in the [`src`](src) directory. The 
 
 There are three main directories in the project: [`src`](src), [`autostart`](autostart), and [`images`](images). The `src` directory contains the source code, the `autostart` directory contains the instructions for autostarting the robot, and the `images` directory contains images for the project.
 
+### Src directory
+
+The [`src`](src) directory contains the source code for the robot. The main file is [`main.py`](src/code/main.py), which contains the code to control the robot. The other files are used for various purposes, such as configuration, sensor reading, and testing.
+
+#### Code directory
+
+The [`code`](src/code) directory contains the code files for sensor reading, motor control, and other functionalities.
+
+#### Testing directory
+
+The [`testing`](src/testing) directory contains the code files for testing the robot's functionalities.
+
 ## Installation
 
 To install the project, follow these steps:
